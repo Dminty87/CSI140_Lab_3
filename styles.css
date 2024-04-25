@@ -1,0 +1,28 @@
+/*  
+    Create an external style sheet named styles.css.
+    Use the universal selector in your CSS to apply the following changes:
+*/
+* {
+    /*Change the background color to any color other than the default.*/
+    background-color: #454545;
+    /*Change the font color to pink.*/
+    color: pink;
+    /*Set the text size to 25 pixels.*/
+    font-size: 25px;
+
+    padding: 0.25em;
+    margin: 0.25em;
+}
+
+.simpleTable {
+    border-collapse: collapse;
+    border: medium solid black;
+}
+
+.simpleTable td{
+    border: medium solid black;
+}
+
+#areasOfStudy img{
+    width: 5em;
+}

@@ -1,0 +1,51 @@
+<!--
+    Create an HTML file named index.html
+    Include the following components in your HTML page:
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--At least two different headings for different sections of your page.-->
+    <h1>Renton Technical College</h1>
+
+    <!--An image above the table. Make sure the image is clickable and opens a new browser window to the https://www.rtc.edu-->
+    <a href="https://rtc.edu" target="_blank">
+        <img src="images/RTC Renton Technical College.jpg" alt="Renton Technical college logo.">
+    </a>
+
+    <!--A table with at least two rows and two columns. The table must include one rowspan and one colspan. Add content in each cell.-->
+    <table class="simpleTable" id="areasOfStudy">
+        <tbody>
+            <tr>
+                <th colspan="4">RTC Areas of Study</th>
+            </tr>
+            <tr>
+                <td><img src="images/RTC Areas of Study/Advanced Manufacturing.jpg" alt="Advanced Manufacturing"></td>
+                <td><img src="images/RTC Areas of Study/Business Management.jpg" alt="Business Management"></td>
+                <td><img src="images/RTC Areas of Study/College & Career Pathways.jpg" alt="College & Career Pathways"></td>
+                <td rowspan="2"><img src="images/RTC Areas of Study/Culinary Arts.jpg" alt="Culinary Arts"></td>
+            </tr>
+            <tr>
+                <td><img src="images/RTC Areas of Study/Health & Human Services.jpg" alt="Health & Human Services"></td>
+                <td><img src="images/RTC Areas of Study/Information Technology.jpg" alt="Information Technology"></td>
+                <td><img src="images/RTC Areas of Study/Transportation Technology.jpg" alt="Transportation Technology"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--At least two different headings for different sections of your page.-->
+    <h1>Main Campus Location</h1>
+
+    <!--An iframe that displays any webpage of your choice, ensuring it's not the same YouTube video iframe from the class example.-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2696.0300993890014!2d-122.17581300000002!3d47.489327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490680aa2406291%3A0x5c2227745c0066ea!2sRenton%20Technical%20College!5e0!3m2!1sen!2sus!4v1714024453786!5m2!1sen!2sus" 
+        title="Renton technical college's location displayed by google maps" style="resize: both; border: medium solid black;">
+    </iframe>
+</body>
+</html>
